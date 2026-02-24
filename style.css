@@ -1,0 +1,40 @@
+.hh{
+    color: rgb(65, 39, 182);
+}
+
+#myid{
+    color: rgb(108, 19, 143);
+}
+
+#mylabel{
+    color: darkblue;
+}
+#mylabel1{
+    color:rgb(21, 158, 112)
+}   
+
+@keyframes animation {
+            0% {background-color: red;}
+            10% {background-color: yellow;}
+            25% {background-color: blue;}
+            50% {background-color: green;}
+            75% {background-color: violet;}
+            100% {background-color: peru;}
+
+}
+div{
+            width: 209px;
+            height: 700px;
+            background-color: red;
+            animation-name: animation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            box-shadow: 10px 10px 10px 40px rgba(9, 41, 182, 0.603);
+}
+.hh{
+            text-shadow: 5px 5px 1px #23d063;
+            color: rgb(15, 15, 15);
+            text-decoration: underline;
+            text-transform: capitalize;
+}
+
